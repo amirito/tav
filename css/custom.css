@@ -34,7 +34,7 @@ a{
     height: 50px;
 }
 .footer img{
-    width: 100px;
+
     position: absolute;
     right: 150px;
     bottom: 0;
@@ -53,5 +53,8 @@ a{
 }
 .brands a:hover{
     box-shadow: -5px 5px 2px #ccc;
+}
 
+.brands > div {
+    padding: 30px;
 }

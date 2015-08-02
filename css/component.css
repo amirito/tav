@@ -38,8 +38,8 @@
 	align-items: center;
 }
 .os-phrases p a{
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
     color: hsla(255,100%,100%,1);
     text-decoration: none;
 }
@@ -72,7 +72,7 @@
 }
 
 .os-phrases h2:nth-child(2) > span > span > span {
-	font-size: 30px;
+	font-size: 26px;
     letter-spacing: 3px;
 	-webkit-animation: FadeIn 1s linear 0s forwards;
 	-moz-animation: FadeIn 1s linear 0s forwards;
@@ -81,7 +81,7 @@
 
 .os-phrases h2:nth-child(3) > span > span > span {
 	margin-top:100px;
-	font-size: 30px;
+	font-size: 26px;
 	opacity:0;
 	-webkit-animation: FadeIn 1s linear 1.2s forwards;
 	-moz-animation: FadeIn 1s linear 1.2s forwards;
@@ -89,7 +89,7 @@
 }
 
 .os-phrases a {
-	margin-top:100px;
+	margin-top:70px;
 	font-size: 14px;
 	opacity:0;
     letter-spacing: 0;
@@ -98,7 +98,7 @@
 	animation: FadeIn 1s linear 2.4s forwards;
 }
 .os-phrases img {
-    margin-top: 100px;
+    margin-top: 130px;
 }
 @-webkit-keyframes OpeningSequence {
 	0% {
