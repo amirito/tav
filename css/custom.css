@@ -5,8 +5,15 @@
     font-style:normal;
     font-weight:normal;
 }
+@font-face{
+    font-family: 'lotus';
+    src:url("../fonts/BLotus.eot");
+    src:url("../fonts/BLotus.eot?#iefix") format("embedded-opentype"),url("../fonts/BLotus.woff") format("woff"),url("../fonts/BLotus.ttf") format("truetype");
+    font-style:normal;
+    font-weight:normal;
+}
 body{
-    font-family: bg !important;
+    font-family: bg,lotus !important;
     margin: 0;
     padding: 60px 0 60px 0;
 }
@@ -44,19 +51,9 @@ a{
     height: 100%;
 
 }
-.brands a{
-
-    display: inline-block;
-    margin-top: 60%;
-    padding: 15px;
-    border:solid 1px #ccc;
-}
-.brands a:hover{
-    box-shadow: -5px 5px 2px #ccc;
-}
 
 .brands > div {
-    padding: 30px;
+    padding: 45px;
 }
 
 .project-name{
@@ -73,4 +70,60 @@ a{
 .project-des{
     padding: 0 50px 0 0 !important;
     text-align: justify;
+}
+
+/* ----------- */
+/* Image hover */
+/* ----------- */
+
+.grid figure {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin: 10px 1%;
+
+    height: auto;
+    text-align: center;
+    cursor: pointer;
+}
+/*-----------------*/
+/***** Steve *****/
+/*-----------------*/
+figure.effect-steve {
+    z-index: auto;
+    overflow: visible;
+}
+figure.effect-steve:before,
+figure.effect-steve h2:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    content: '';
+    -webkit-transition: opacity 0.35s;
+    transition: opacity 0.35s;
+}
+
+figure.effect-steve:before {
+    opacity: 0;
+}
+
+figure.effect-steve figcaption {
+    z-index: 1;
+}
+figure.effect-steve img {
+    opacity: 1;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: perspective(1000px) translate3d(0,0,0);
+    transform: perspective(1000px) translate3d(0,0,0);
+}
+figure.effect-steve:hover:before {
+    opacity: 1;
+}
+figure.effect-steve:hover img {
+    -webkit-transform: perspective(1000px) translate3d(0,0,51px);
+    transform: perspective(1000px) translate3d(0,0,51px);
 }

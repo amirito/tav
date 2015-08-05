@@ -12,9 +12,11 @@
 	letter-spacing: 2px;
 	text-align: center;
 }
-
+.container{
+    text-align: center;
+}
 .os-phrases h2,
-.os-phrases h2 > span,
+.os-phrases h2 ,
 .os-phrases p {
 	height: 100%;
 	/* Centering with flexbox */
@@ -43,11 +45,11 @@
     color: hsla(255,100%,100%,1);
     text-decoration: none;
 }
-.os-phrases h2 > span {
-	margin: 0 15px;
+.os-phrases h2  {
+	
 }
 
-.os-phrases h2 > span > span {
+.os-phrases h2 {
 	display: inline-block;
 	-webkit-perspective: 1000px;
 	-moz-perspective: 1000px;
@@ -57,7 +59,7 @@
 	transform-origin: 50% 50%;
 }
 
-.os-phrases h2 > span > span > span {
+.os-phrases{
 	display: inline-block;
 	color: hsla(255,100%,100%,1);
 	-webkit-transform-style: preserve-3d;
@@ -66,21 +68,19 @@
 	-webkit-transform: translate3d(0,0,0);
 	-moz-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
-	-webkit-animation: OpeningSequence 5.2s linear forwards;
-	-moz-animation: OpeningSequence 5.2s linear forwards;
-	animation: OpeningSequence 5.2s linear forwards;
 }
 
-.os-phrases h2:nth-child(2) > span > span > span {
+.os-phrases h2:nth-child(2){
 	font-size: 26px;
     letter-spacing: 3px;
 	-webkit-animation: FadeIn 1s linear 0s forwards;
 	-moz-animation: FadeIn 1s linear 0s forwards;
 	animation: FadeIn 1s linear 0s forwards;
+    margin-top: 270px;
 }
 
-.os-phrases h2:nth-child(3) > span > span > span {
-	margin-top:100px;
+.os-phrases h2:nth-child(3){
+	margin-top:300px;
 	font-size: 26px;
 	opacity:0;
 	-webkit-animation: FadeIn 1s linear 1.2s forwards;
@@ -178,7 +178,7 @@
 	}
 }
 
-.os-phrases h2:nth-child(8) > span > span > span {
+.os-phrases h2:nth-child(8){
 	font-size: 30px;
 	-webkit-animation: FadeIn 4s linear 40s forwards;
 	-moz-animation: FadeIn 4s linear 40s forwards;
