@@ -39,6 +39,7 @@ a{
     bottom: 0;
     background-color: rgb(144 ,105, 70);
     height: 50px;
+	
 }
 .footer img{
 
@@ -127,3 +128,13 @@ figure.effect-steve:hover img {
     -webkit-transform: perspective(1000px) translate3d(0,0,51px);
     transform: perspective(1000px) translate3d(0,0,51px);
 }
+.footer p {
+	text-align:center;
+	margin-top:20px !important;
+	font-family:tahoma;
+	}
+.footer p a{
+	text-decoration:none;
+	color:black;
+	font-family:tahoma;
+	}
