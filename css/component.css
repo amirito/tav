@@ -1,3 +1,13 @@
+@font-face{
+    font-family: 'bg';
+    src:url("../fonts/bg.eot");
+    src:url("../fonts/bg.eot?#iefix") format("embedded-opentype"),url("../fonts/bg.woff") format("woff"),url("../fonts/bg.ttf") format("truetype");
+    font-style:normal;
+    font-weight:normal;
+}
+body{
+	font-family:bg;
+	}
 .os-phrases h2 {
 	font-size: 70px;
 	font-weight: 200;
@@ -39,11 +49,14 @@
 	-ms-flex-align: center;
 	align-items: center;
 }
-.os-phrases p a{
+.os-phrases p button{
     margin-left: 30px;
     margin-right: 30px;
     color: hsla(255,100%,100%,1);
     text-decoration: none;
+	background:none !important;
+	border:none !important;
+	cursor:pointer;
 }
 .os-phrases h2  {
 
@@ -88,7 +101,7 @@
 	animation: FadeIn 1s linear 1.2s forwards;
 }
 
-.os-phrases a {
+.os-phrases button {
 	margin-top:70px;
 	font-size: 14px;
 	opacity:0;

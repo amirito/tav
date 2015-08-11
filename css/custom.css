@@ -83,17 +83,19 @@ a{
     height: 250px;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
+    
+	
+	
 }
 .projects{
-
+	margin-bottom:50px;
 }
 .projects figure {
     position: relative;
 
     overflow: hidden;
     margin: 10px 1%;
-    min-width: 320px;
+   
     max-width: 480px;
     max-height: 360px;
     width: 100%;
@@ -130,13 +132,17 @@ a{
 /* Image hover */
 /* ----------- */
 .grid{
+	
+	padding:5px;
+	
+	border-radius:2px;
     text-align: center;
 }
 .grid figure {
     position: relative;
-
+	
     overflow: hidden;
-    margin: 10px 1%;
+    margin: 0 !important;
 	height: auto;
     text-align: center;
     cursor: pointer;
@@ -148,6 +154,8 @@ a{
     font-size: 1.25em;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+	text-shadow:0 2px 3px #000;
+	
 }
 
 .grid figure figcaption::before,
@@ -326,3 +334,21 @@ figure.effect-ming:hover img {
     color: #fff;
     text-decoration: none;
 }
+#en{
+	display:inline-block;
+	width:20px;
+	height:18px;
+	background:url(../images/gb.png) no-repeat;
+	background-position:0 4px;
+	background-size:20px;
+
+	}
+#fa{
+	display:inline-block;
+	width:20px;
+	height:18px;
+	background:url(../images/ir.png) no-repeat;
+	background-position:0 4px;
+	background-size:20px;
+
+	}
