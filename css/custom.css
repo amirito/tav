@@ -24,6 +24,31 @@ a{
     -o-transition: all .2s;
     transition: all .2s;
 }
+hr.hr{
+    clear: both;
+    margin-left: -15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-width: 2px 0px 0px;
+    border-style: solid none none;
+    border-color: #999 -moz-use-text-color -moz-use-text-color;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+
+    text-align: left;
+}
+.holdings{
+    margin-top: 50px;
+
+}
+.holdings h4{
+    margin-top: 50px;
+    font-weight: bold;
+
+}
 .header{
     position: fixed;
     width: 100%;
@@ -51,12 +76,34 @@ a{
     height: 30px;
 	padding-bottom: 5px;
 }
+.contact{
+    height: 100%;
+}
+.contact div:first-child{
+    position: absolute;
+    bottom: 40px;
+}
 .about{
-    padding: 0 20%;
+    margin-top: 200px;
+}
+.development{
+    margin-top: 60px;
+}
+.development p{
     text-align: justify;
+}
+.about_rostampoor{
+    margin-top:30px;
+}
+.about_rostampoor img{
+    border-top : 1px solid #eee ;
+}
+.about_rostampoor p{
+    line-height: 15px;
 }
 .about p{
     padding-left: 20px;
+    text-align: justify;
 }
 .footer img{
     border-radius: 10px 10px 0 0 ;

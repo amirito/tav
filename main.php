@@ -47,7 +47,7 @@
                 <li><a href="main.php?page=development">Historical Development</a></li>
             </ul>
         </li>
-        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="main.php?page=contact">Contact Us</a></li>
      </ul>
 
 </div>
